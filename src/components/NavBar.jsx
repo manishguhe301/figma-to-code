@@ -6,7 +6,7 @@ import Arrow from '../assets/arrow-back.svg'
 import avatar from '../assets/avatar.svg'
 
 const NavBar = () => {
-  const currentTime = new Date().toLocaleTimeString().slice(0, 4);
+  const currentTime = new Date().toLocaleTimeString().slice(0, 5);
   return (
     <div className='flex flex-col gap-2' >
       <div className='px-14 py-4 flex items-center justify-between w-full'>
