@@ -1,5 +1,6 @@
 import React from 'react'
 import CreateNewInvoiceBtn from './CreateNewInvoiceBtn'
+import CardWrapper from './CardWrapper'
 
 const MainContent = () => {
   return (
@@ -8,6 +9,7 @@ const MainContent = () => {
     >
       <CreateNewInvoiceBtn />
       <p className='py-3 text-xs font-normal text-[#8134AF]'>Or Upload an existing invoice and set payment reminder</p>
+
     </div>
   )
 }
