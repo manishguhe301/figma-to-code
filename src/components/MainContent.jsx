@@ -3,6 +3,7 @@ import CreateNewInvoiceBtn from './CreateNewInvoiceBtn'
 import CardWrapper from './CardWrapper'
 import TimePeriod from './TimePeriod'
 import Payments from './Payments'
+import Invoices from './Invoices'
 
 const MainContent = () => {
   return (
@@ -15,6 +16,7 @@ const MainContent = () => {
       </p>
       <TimePeriod />
       <Payments />
+      <Invoices />
     </div>
   )
 }

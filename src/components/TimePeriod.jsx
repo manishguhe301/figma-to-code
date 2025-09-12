@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import CardWrapper from './CardWrapper'
 import { timePeriods } from '../../utils/constants'
 import Pill from './Pill'
-import CardHeader from './CardHeader'
+import Heading from './Heading'
 
 const TimePeriod = () => {
   const [activeIndex, setActiveIndex] = useState(1)
@@ -10,8 +10,8 @@ const TimePeriod = () => {
   return (
     <CardWrapper className='flex flex-col gap-2'>
       <div className="flex items-center w-full justify-between">
-        <CardHeader>Time Period</CardHeader>
-        <CardHeader className='text-xs'>dd:mm:yyyy - dd:mm:yyyy</CardHeader>
+        <Heading>Time Period</Heading>
+        <Heading className='text-xs'>dd:mm:yyyy - dd:mm:yyyy</Heading>
       </div>
       <div className="flex items-center gap-2 flex-wrap">
         {timePeriods.map((t, index) => {
