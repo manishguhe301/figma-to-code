@@ -2,6 +2,7 @@ import React from 'react'
 import CreateNewInvoiceBtn from './CreateNewInvoiceBtn'
 import CardWrapper from './CardWrapper'
 import TimePeriod from './TimePeriod'
+import Payments from './Payments'
 
 const MainContent = () => {
   return (
@@ -13,6 +14,7 @@ const MainContent = () => {
         Or Upload an existing invoice and set payment reminder
       </p>
       <TimePeriod />
+      <Payments />
     </div>
   )
 }
