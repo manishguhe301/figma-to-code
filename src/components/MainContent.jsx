@@ -5,6 +5,7 @@ import TimePeriod from './TimePeriod'
 import Payments from './Payments'
 import Invoices from './Invoices'
 import Footer from './Footer'
+import IncomeTrend from './IncomeTrend'
 
 const MainContent = () => {
   return (
@@ -17,6 +18,7 @@ const MainContent = () => {
       </p>
       <TimePeriod />
       <Payments />
+      <IncomeTrend />
       <Invoices />
     </div>
   )
