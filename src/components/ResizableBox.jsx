@@ -2,7 +2,7 @@
 export default function ResizableBox({
   children,
   width = 100,
-  height = 400,
+  height = 350,
   style = {},
   className = "",
 }) {
@@ -16,7 +16,7 @@ export default function ResizableBox({
             width: `${width}px`,
             height: `${height}px`,
           }}
-          className={className}
+          className={`max-sm:w-full ${className}`}
         >
           {children}
         </div>
